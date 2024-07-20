@@ -1,0 +1,14 @@
+.container-scroll {
+    position: absolute;
+    overflow-y: scroll;
+}
+
+.col-fixed {
+    width: 300px; /* Ancho constante para la columna */
+    max-width: 300px; /* Asegura que el ancho no exceda el valor especificado */
+    flex: 0 0 300px; /* Asegura que el contenedor no se redimensione */
+}
+
+.col {
+    flex: 1; /* Permitir que las columnas flexibles ocupen el espacio restante */
+}

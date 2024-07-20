@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f0f0f0;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    position: relative;
+}
+.card {
+    width: 350px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.card-body {
+    border: 25px solid crimson;
+    width: 350px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cccccc;
+    background-image: url("https://asia.pokemon-card.com/my/wp-content/uploads/sites/6/2022/08/EG_news_zoombg_02_1920.jpeg");
+    background-size: contain;
+}
+.card img {
+    width: 30%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    background-color: wheat;
+}
+.circle-container {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px; /* Espacio entre los círculos */
+    top: 5px;
+    left: 23px;
+}
+.circle {
+    width: 17px; /* Tamaño más pequeño del círculo */
+    height: 17px;
+    border: 2px solid black; /* Borde negro del círculo */
+    background-color: #3498db;
+    border-radius: 50%;
+    top: 20px; /* Ajuste para separar del borde superior */
+    left: 20px; /* Ajuste para separar del borde izquierdo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Color del texto dentro del círculo */
+    font-size: 12px; /* Tamaño del texto */
+}
+.card-content {
+    padding: 16px;
+    text-align: center;
+    background-color: aliceblue;
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
