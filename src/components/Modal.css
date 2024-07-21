@@ -1,7 +1,7 @@
 .modalBackground {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(200, 200, 200, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   display: flex;
   justify-content: center;
@@ -9,14 +9,12 @@
 }
 
 .modalContainer {
-  width: 50vw;
-  height: 50vw;
   border-radius: 12px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   flex-direction: column;
-  padding: 25px;
+  padding: 0px;
   opacity:1;
 }
 hr.solid {
@@ -30,13 +28,14 @@ hr.solid {
 
 .titleCloseBtn {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 5px;
 }
 
 .titleCloseBtn button {
   background-color: transparent;
   border: none;
-  font-size: 25px;
+  font-size: 20px;
   cursor: pointer;
 }
 

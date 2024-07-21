@@ -4,9 +4,9 @@ type typePokemon = {
     tipo: Array<string>,
     descripcion: string,
     imagen: any,
+    altura: string,
     peso: number,
-    altura: number,
-}
+    favorito: boolean,
+};
 
-
-export default typePokemon ;
+export type {typePokemon};

@@ -1,9 +1,9 @@
 import React, {ReactElement} from "react";
 import "./Modal.css";
 
-function Modal({titulo, body, closeModal}: {
-    titulo: string
-    body: ReactElement,
+function Modal({titulo, children, closeModal}: {
+    titulo: string,
+    children: ReactElement,
     closeModal: Function,
 }){
 
@@ -11,30 +11,15 @@ function Modal({titulo, body, closeModal}: {
         <div className="modalBackground">
             <div className="modalContainer">
                 <div className="titleCloseBtn">
+                    <div className="header">{titulo}</div>
                     <button
                         onClick={() => {
                             closeModal();
                         }}
-                    >
-                        X
-                    </button>
-                </div>
-                <div className="title">
-                    <h1>Are You Sure You Want to Continue?</h1>
+                    >X</button>
                 </div>
                 <div className="body">
-                    <p>The next page looks amazing. Hope you want to go there!</p>
-                </div>
-                <div className="footer">
-                    <button
-                        onClick={() => {
-                            closeModal();
-                        }}
-                        id="cancelBtn"
-                    >
-                        Cancel
-                    </button>
-                    <button>Continue</button>
+                    {children}
                 </div>
             </div>
         </div>

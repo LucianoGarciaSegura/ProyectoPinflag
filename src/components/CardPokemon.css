@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Emulogic;
+}@font-face {
+    font-family: Emulogic;
+    src: url("src/assets/fonts/Emulogic-zrEw.ttf");
 }
 body {
     background-color: #f0f0f0;
@@ -12,31 +16,27 @@ body {
     flex-wrap: wrap;
     margin-top: 100px;
     position: relative;
+    min-height: 200px;
 }
 .card {
     width: 350px;
     border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
-    margin: 20px;
+    box-shadow: 0px 16px 32px rgba(0,0,0,0.4);
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f0f0f0;
 }
 .card-body {
-    border: 25px solid crimson;
+    border: 25px solid #CA282C;
     width: 350px;
     border-radius: 8px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #cccccc;
-    background-image: url("https://asia.pokemon-card.com/my/wp-content/uploads/sites/6/2022/08/EG_news_zoombg_02_1920.jpeg");
+    background-image: url("../assets/backgrounds/pokeCardBackGround.jpeg");
     background-size: contain;
-}
-.card img {
+}.card img {
     width: 30%;
     height: auto;
     margin-top: 20px;
@@ -44,6 +44,7 @@ body {
     border: 2px solid grey;
     border-radius: 8px;
     background-color: wheat;
+    cursor: pointer;
 }
 .circle-container {
     position: absolute;
@@ -74,13 +75,14 @@ body {
     width: 100%;
     border: 2px solid grey;
     border-radius: 8px;
+    cursor: pointer;
 }
 .card-content h3 {
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 8px;
 }
 .card-content p {
     color: #666;
-    font-size: 15px;
+    font-size: 10px;
     line-height: 1.3;
 }
