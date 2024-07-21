@@ -5,7 +5,7 @@
     font-family: Emulogic;
 }@font-face {
     font-family: Emulogic;
-    src: url("src/assets/fonts/Emulogic-zrEw.ttf");
+    src: url("../assets/fonts/Emulogic-zrEw.ttf");
 }
 body {
     background-color: #f0f0f0;

@@ -6,13 +6,29 @@ function PokedexDetail({pokemon}: {
     pokemon: typePokemon
 }) {
 
-    //Guarda los dieferentes colores dependiendo de el tipo de pokemon
-    const typeColors = {
-        fuego: 'red',
-        tierra: 'green',
-        agua: 'blue',
-        electrico: 'grey',
+
+
+    const typeColors: Record<string, string> = {
+        'acero': '#008080',
+        'agua': '#0066ff',
+        'bicho': '#8A9A5B',
+        'dragon': '#0000FF',
+        'electrico': '#ffcc00',
+        'fantasma': '#490049',
+        'fuego': '#FF0000',
+        'hada': '#ff81eb',
+        'hielo': '#00e2ff',
+        'lucha': '#ff7300',
+        'normal': '#969696',
+        'planta': '#327700',
+        'psíquico': '#d50079',
+        'roca': '#947662',
+        'siniestro': '#232323',
+        'tierra': '#6b2f10',
+        'veneno': '#6a3172',
+        'volador': '#2d9db0',
     };
+
     return (
         <>
             <div className="pokedex">

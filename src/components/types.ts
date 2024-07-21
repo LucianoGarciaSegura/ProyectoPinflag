@@ -1,4 +1,5 @@
 type typePokemon = {
+    id: number,
     numero: number,
     nombre: string,
     tipo: Array<string>,

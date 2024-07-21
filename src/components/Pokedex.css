@@ -42,22 +42,22 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    gap: 5px; /* Espacio entre los círculos */
+    gap: 5px;
     top: 5px;
     left: 23px;
 }
 .rectangle {
-     width: auto; /* Ancho del rectángulo */
-     height: 20px; /* Altura del rectángulo */
-     border: 2px solid black; /* Borde negro del rectángulo */
+     width: auto;
+     height: 20px;
+     border: 2px solid black;
      background-color: #3498db;
-     top: 20px; /* Ajuste para separar del borde superior */
-     left: 20px; /* Ajuste para separar del borde izquierdo */
+     top: 20px;
+     left: 20px;
      display: flex;
      justify-content: center;
      align-items: center;
-     color: white; /* Color del texto dentro del rectángulo */
-     font-size: 7px; /* Tamaño del texto */
+     color: white;
+     font-size: 9px;
  }
 .pokedex-content {
     padding-left: 10px;
