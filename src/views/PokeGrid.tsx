@@ -35,7 +35,7 @@ let pokemones = [
         nombre: "cosomon",
         tipo: ['tierra', 'electrico'],
         descripcion: "poquemón que da la tierra",
-        imagen: "https://static.wikia.nocookie.net/espokemon/images/f/f1/Charmander_NB.gif",
+        imagen: "https://static.wikia.nocookie.net/espokemon/images/c/c3/Charmeleon_NB.gif",
         peso: 36,
         altura: "4'4",
         favorito: true,

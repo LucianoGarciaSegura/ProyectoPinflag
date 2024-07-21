@@ -27,8 +27,8 @@ body {
     align-items: center;
     background-size: contain;
 }.imgLogo{
-    width: 30%;
-    height: auto;
+    width: 130px;
+    height: 130px;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 2px solid grey;
